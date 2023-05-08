@@ -1,9 +1,9 @@
 # CryptoClustering
-<br>
+
 1. Prepare the Data
  - Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
 - Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
-</br>
+
 2. Find the Best Value for k Using the Original Scaled DataFrame
 Use the elbow method to find the best value for k using the following steps:
 - Create a list with the number of k values from 1 to 11.
